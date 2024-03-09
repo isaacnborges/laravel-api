@@ -9,7 +9,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('students', [StudentController::class, 'index']);
-Route::post('students', [StudentController::class, 'create']);
 Route::get('students/{id}', [StudentController::class, 'getById']);
+Route::post('students', [StudentController::class, 'create']);
 Route::put('students/{id}', [StudentController::class, 'update']);
 Route::delete('students/{id}', [StudentController::class, 'delete']);
