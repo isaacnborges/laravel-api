@@ -42,13 +42,17 @@ php artisan serve
         - phone (string, required)
         - Delete Student
 
+- Delete Student
     - URL: /api/students/{id}
     - Method: DELETE
     - Get Student by ID
     - URL: /api/students/{id}
 
-- Method: GET
-    - Get All Students
+- Get Student by ID
+    - URL: /api/students/{id}
+    - Method: GET    
+
+- Get All Students
     - URL: /api/students
     - Method: GET
     - Query Params:
