@@ -54,7 +54,7 @@ class StudentController extends Controller
             'status' => 404,
             'message' => "Not found"
         ], 500);
-    }    
+    }
 
     public function create(Request $request)
     {
