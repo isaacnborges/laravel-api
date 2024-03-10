@@ -108,5 +108,3 @@ php artisan serve
 
 #### Considerations and Future Improvements
 Api documentation with Swagger that allows to describe, document, and test the Api.
-
-These are potential enhancements to consider for the future, depending on your application's evolving requirements and usage patterns. Each improvement can contribute to a better-performing and more maintainable system.
